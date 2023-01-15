@@ -1,47 +1,41 @@
-const logotext = "JOHN";
+import lorem from "../src/assets/images/mobile_app.jpg"
+import pSearch from "../src/assets/images/product_search.jpg"
+import foody from "../src/assets/images/foody.jpg"
+const logotext = "UMUT";
 const meta = {
-    title: "John Doe",
+    title: "Umut (Hope) Portfolio",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Umut Sarihan",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: " Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine and I am confident I would be an excellent addition to your organization. In addition to my knowledge base, I actively seek out new technologies and stay up-to-date on industry trends and advancements. This has allowed me to stay ahead of the curve and deliver exceptional work to all of my employers, including those I've worked for on a project basis.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Myself",
+    aboutme: "I like team play sports, and having fun with my friends. I like to play video games, and expanding my knowledge by exploring and leaning new things. Enjoying art and watching anime.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Frontend Dev",
+        where: "Goony",
+        date: "2022",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 30,
     },
     {
-        name: "Djano",
+        name: "Firebase",
         value: 85,
     },
     {
@@ -49,13 +43,26 @@ const skills = [{
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "ReactJs",
+        value: 80,
     },
     {
-        name: "Jquery",
+        name: "React Navite",
+        value: 80,
+    },
+     {
+        name: "HTML5",
         value: 85,
     },
+     {
+        name: "CSS",
+        value: 95,
+    },
+     {
+        name: "Tailwind",
+        value: 95,
+    },
+
 ];
 
 const services = [{
@@ -67,72 +74,29 @@ const services = [{
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Wordpress Design",
+        title: "Web App",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+// add websites buillded to portfolio then deploy
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [{
+        img: foody,
+        desctiption: "Fronted Food Ordering Application",
+        link: "https://foody-hope.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: lorem,
+        desctiption: "Web App Demo for Mobile Application with Map integration.",
+        link: "https://goony-priv.netlify.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: pSearch,
+        desctiption: "Data Search Engine Implamentation",
+        link: "https://hopeproductsearch.netlify.app/",
+    }
+    
 ];
 
 const contactConfig = {
@@ -147,10 +111,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/umuttolga",
+    facebook: "https://facebook.com/RayleighOP",
+    linkedin: "https://linkedin.com/in/umuttolgasarihan",
+    twitter: "https://twitter.com/mrhopela",
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
 };
